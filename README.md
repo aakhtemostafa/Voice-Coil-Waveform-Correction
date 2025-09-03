@@ -98,15 +98,6 @@ pip install pandas numpy matplotlib scipy statsmodels moku
 - `Compensator_it_#_#.txt` → generated compensators.  
 - Plots embedded in the notebook.
 
----
-
-## Example Workflow
-
-```
-Initial Waveform → AWG → Voice Coil → Oscilloscope → Response
-       ↓                                            ↑
-   Compute Residual → Generate Compensator → Upload Again
-```
 
 ---
 
