@@ -1,4 +1,4 @@
-# Voice Coil Waveform Correction with MokuGo
+# Voice Coil Waveform Correction
 
 This repository contains a **Jupyter Notebook workflow** for generating, measuring, and iteratively correcting **voice coil waveforms** using the **Moku:Go Arbitrary Waveform Generator (AWG)** and **Oscilloscope**.
 
