@@ -13,7 +13,7 @@ The notebook automates:
 
 ## Hardware
 
-- [Moku:Go](https://www.liquidinstruments.com/moku-go/) with:  
+- [Moku:Go](https://apis.liquidinstruments.com/api/getting-started/starting-python.html) with:  
   - Arbitrary Waveform Generator (AWG)  
   - Oscilloscope  
 - Voice coil setup  
