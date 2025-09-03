@@ -70,7 +70,7 @@ pip install pandas numpy matplotlib scipy statsmodels moku
    cd voice-coil-waveform-correction
    ```
 
-2. Place your `initial_linear_waveform.txt` in the project root.
+2. Place the `initial_linear_waveform.txt` in the project root.
 
 3. Launch JupyterLab or Jupyter Notebook:
 
