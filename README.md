@@ -17,7 +17,7 @@ The notebook automates:
   - Arbitrary Waveform Generator (AWG)  
   - Oscilloscope  
 - Voice coil setup  
-- Position sensing device assembly  
+- Position sensing detector assembly
 
 ---
 
