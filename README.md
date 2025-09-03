@@ -24,24 +24,31 @@ The notebook automates:
 ## Setup Diagram
 
 ```
-        ┌──────────────┐
-        │  Moku:Go AWG │
-        └──────┬───────┘
-               │  (Drive Signal)
-               ▼
-        ┌──────────────┐
-        │   Voice Coil │
-        └──────┬───────┘
-               │  (Motion)
-               ▼
-        ┌────────────────────┐
-        │ Position Sensor    │
-        └──────┬─────────────┘
-               │  (Feedback Signal)
-               ▼
-        ┌──────────────┐
-        │ Moku:Go Scope│
-        └──────────────┘
+    ┌──────────────┐
+    │  Moku:Go AWG │
+    └──────┬───────┘
+           │  (Drive Signal)
+           ▼
+    ┌──────────────┐
+    │  Voice Coil  │
+    └──────┬───────┘
+           │  (Motion)
+           ▼
+    ┌────────────────────┐
+    │   Position Sensor  │
+    └──────┬─────────────┘
+           │  (Feedback Signal)
+           ▼
+    ┌──────────────┐
+    │ Moku:Go Scope│
+    └──────┬───────┘
+           │  (Processed Residuals / Compensation)
+           └───────────────►
+                   │
+                   ▼
+           ┌──────────────┐
+           │  Moku:Go AWG │
+           └──────────────┘
 ```
 
 ---
